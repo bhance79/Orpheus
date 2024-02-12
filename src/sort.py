@@ -60,7 +60,7 @@ def replace_playlist_tracks(sp, playlist_id, sorted_tracks):
         for start_index in range(max_tracks_per_request, len(track_uris), max_tracks_per_request):
             batch = track_uris[start_index:start_index + max_tracks_per_request]  # Creates batches of track URIs
             sp.playlist_add_items(playlist_id, batch)  # Adds remaining batches of tracks to the playlist
-    print(f"Playlist {playlist_id} has been updated with tracks sorted by {sort_feature}.")
+    print(f"Playlist {playlist_name} has been updated with tracks sorted by {sort_feature}.")
 
 # Main execution block
 if __name__ == "__main__":
