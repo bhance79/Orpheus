@@ -1,3 +1,6 @@
+# Python script that allows users to filter out songs from a source playlist if already found in given playlist
+# Example: Remove songs from 'Source Playlist' if already found in 'Playlist One','Sad Playlist, 'etc.'
+
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import os

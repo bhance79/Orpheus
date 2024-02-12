@@ -1,3 +1,5 @@
+# Python script that can sort a playlist
+
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import os

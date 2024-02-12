@@ -1,3 +1,7 @@
+# Python script to remove duplicates within the same playlist
+# NOTE: singles and songs from albums count as different songs and therefore not as duplicates
+#       working on that
+
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import os
