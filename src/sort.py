@@ -1,4 +1,4 @@
-# Python script that can sort a playlist
+# Sort playlists by: Danceability, Energy, Valence, Tempo, Loudness, Acousticnes or Popularity
 
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth

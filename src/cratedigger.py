@@ -1,4 +1,4 @@
-# Python script that creates CRATEDIGGER if not created already and adds songs from 'Discovery weekly' to it
+# Creates CRATEDIGGER if not created already and adds songs from 'Discovery weekly' to it
 
 import os
 import spotipy
