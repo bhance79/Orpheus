@@ -20,7 +20,7 @@ The Orpheus project offers a suite of Python scripts designed to enhance your Sp
 
 2. **Spotify API Credentials**:
     - Visit the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications) to create an app and obtain your `SPOTIFY_CLIENT_ID` and `SPOTIFY_CLIENT_SECRET`.
-    - Set the redirect URI in your app settings to `http://127.0.0.1:5000` and save it.
+    - Set the redirect URI in your app settings to `http://127.0.0.1:5000` or whichever URL you desire and save it.
     - Store your Spotify API credentials as environment variables:
         - On Windows:
             ```cmd
